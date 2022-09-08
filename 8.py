@@ -2,7 +2,7 @@
 
 numberofpeople = int(input("How many people?"))
 amountofpizza = int(input("How many pizzas do you have?"))
-slicesofpizza = amountofpizza * 8 #шматочків піци
+slicesofpizza = amountofpizza * 8  # шматочків піци
 perperson = slicesofpizza // numberofpeople
 perpersonwiththeremainder = slicesofpizza / numberofpeople
 remainder = math.ceil(perpersonwiththeremainder - perperson)
