@@ -1,10 +1,12 @@
 # №12
 
-P = float(input("Enter the principal:"))
-r = float(input("Enter the rate of interest:"))
-t = float(input("Enter the number of years:"))
-A = P * (1 + (r * t))
-print("After", t, "years at", r, "%", ", the investment will be worth", A)
+principal = float(input("Enter the principal:"))
+rateOfInterest = float(input("Enter the rate of interest:"))
+numberOfYears = float(input("Enter the number of years:"))
+result2 = rateOfInterest * numberOfYears
+result1 = (result2 * principal) / 100
+result = result1 + principal
+print(f"After, {numberOfYears}, years at, {rateOfInterest}%, the investment will be worth ${result}")
 
 # Enter the principal: 1500
 # Enter the rate of interest: 4.3
