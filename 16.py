@@ -1,8 +1,9 @@
 # №16
 
 age = int(input("What is your age?"))
-TrueAge = 16
-if age >= TrueAge:
+true_age = 16
+
+if age >= true_age:
     print("You are old enough to legally drive.")
 else:
     print("You are not old enough to legally drive.")

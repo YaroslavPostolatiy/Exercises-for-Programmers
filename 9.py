@@ -1,9 +1,12 @@
 # №9
 
+gallon = 350
+
 lengthroom = int(input("What is the length of the room in feet?"))
 widthroom = int(input("What is the width of the room in feet?"))
-gallon = 350
+
 perimeter = lengthroom * widthroom
+
 if perimeter < gallon:
     print(
         "You will need to purchase 1 gallons of paint to cover",

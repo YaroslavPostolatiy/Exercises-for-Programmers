@@ -1,19 +1,25 @@
 # №10
 
-priceofitem1 = float(input("Enter the price of item 1:"))
-quantityofitem1 = float(input("Enter the quantity of item 1:"))
-priceofitem2 = float(input("Enter the price of item 2:"))
-quantityofitem2 = float(input("Enter the quantity of item 2:"))
-priceofitem3 = float(input("Enter the price of item 3:"))
-quantityofitem3 = float(input("Enter the quantity of item 3:"))
-item1 = priceofitem1 * quantityofitem1
-item2 = priceofitem2 * quantityofitem2
-item3 = priceofitem3 * quantityofitem3
+price_of_item1 = float(input("Enter the price of item 1:"))
+quantity_of_item1 = float(input("Enter the quantity of item 1:"))
+price_of_item2 = float(input("Enter the price of item 2:"))
+quantity_of_item2 = float(input("Enter the quantity of item 2:"))
+price_of_item3 = float(input("Enter the price of item 3:"))
+quantity_of_item3 = float(input("Enter the quantity of item 3:"))
+
+item1 = price_of_item1 * quantity_of_item1
+item2 = price_of_item2 * quantity_of_item2
+item3 = price_of_item3 * quantity_of_item3
 subtotal = item1 + item2 + item3
+
 print("Subtotal:", subtotal)
+
 tax = float(subtotal * 5.5 / 100)
+
 print("Tax:", tax)
+
 total = float(subtotal + tax)
+
 print("Total:", total)
 
 # Enter the price of item 1: 25

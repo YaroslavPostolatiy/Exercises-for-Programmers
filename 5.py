@@ -2,6 +2,7 @@
 
 firstnumber = int(input("What is the first number?"))
 secondnumber = int(input("What is the second number?"))
+
 print(firstnumber, "+", secondnumber, "=", int(firstnumber + secondnumber))
 print(firstnumber, "-", secondnumber, "=", int(firstnumber - secondnumber))
 print(firstnumber, "*", secondnumber, "=", int(firstnumber * secondnumber))

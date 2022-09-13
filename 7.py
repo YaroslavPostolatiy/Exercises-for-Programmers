@@ -2,8 +2,11 @@
 
 lengthroom = int(input("What is the length of the room in feet?"))
 widthroom = int(input("What is the width of the room in feet?"))
+
 print("You entered dimensions of", lengthroom, "feet by", widthroom, "feet.")
+
 perimeter = lengthroom * widthroom
+
 print("The area is:\n", perimeter, "square feet")
 print(perimeter * 0.09290304, "square meters")
 

@@ -1,11 +1,15 @@
 # №8
 
-numberofpeople = int(input("How many people?"))
-amountofpizza = int(input("How many pizzas do you have?"))
-slicesofpizza = amountofpizza * 8  # шматочків піци
-perperson = slicesofpizza // numberofpeople
-perpersonwiththeremainder = slicesofpizza / numberofpeople
-remainder = math.ceil(perpersonwiththeremainder - perperson)
+import math
+
+number_of_people = int(input("How many people?"))
+amount_of_pizza = int(input("How many pizzas do you have?"))
+
+slices_of_pizza = amount_of_pizza * 8  # шматочків піци
+perperson = slices_of_pizza // number_of_people
+per_person_with_there_mainder = slices_of_pizza / number_of_people
+remainder = math.ceil(per_person_with_there_mainder - perperson)
+
 print("Each person gets", perperson, "pieces of pizza.")
 print("There are", remainder, "leftover pieces.")
 

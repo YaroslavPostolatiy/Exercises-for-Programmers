@@ -2,6 +2,7 @@
 
 orderAmount = float(input("What is the order amount?"))
 state = str(input("What state do you live in?"))
+
 if state == "Wisconsin":
     district = str(input("Forthe county ofresidence?"))
     if district == "Eau Claire":

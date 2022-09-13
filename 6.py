@@ -2,6 +2,7 @@
 
 age = int(input("What is your current age?"))
 retireage = int(input("At what age would you like to retire?"))
+
 print("You have", retireage - age, "years left until you can retire.")
 print("It's 2022, so you can retire in", 2022 + (retireage - age))
 

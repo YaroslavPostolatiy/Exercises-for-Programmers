@@ -1,6 +1,7 @@
 # №15
 
 password = input("What is the password?")
+
 if password == "parol":
     print("Welcome!")
 else:

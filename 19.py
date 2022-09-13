@@ -3,11 +3,11 @@
 weight = float(input("Your weight:"))
 height = float(input("Your height:"))
 
-bodyMassIndex = (weight / (height * height)) * 703
+body_mass_index = (weight / (height * height)) * 703
 
-if bodyMassIndex < 19.5:
+if body_mass_index < 19.5:
     print("You should see your doctor.")
-elif bodyMassIndex >= 19.5 and bodyMassIndex <= 32.5:
+elif body_mass_index >= 19.5 and body_mass_index <= 32.5:
     print("You are within the ideal weight range.")
 else:
     print("You are overweight. You should see your doctor.")

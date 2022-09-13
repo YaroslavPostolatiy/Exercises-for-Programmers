@@ -1,6 +1,7 @@
 # №18
 
 temperature = str(input("Press C to convert from Fahrenheit to Celsius. Press F to convert from Celsius to Fahrenheit.").upper())
+
 if temperature == "C":
     Celsius = float(input("Please enter the temperature in Celsius:"))
     result = ((Celsius * (9 / 5)) + 32)

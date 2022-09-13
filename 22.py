@@ -1,18 +1,14 @@
 # №22
 
-firstNumber = input("Enter the first number:")
-secondNumber = input("Enter the first number:")
-thirdNumber = input("Enter the first number:")
+first_number = input("Enter the first number:")
+second_number = input("Enter the second number:")
+third_number = input("Enter the third number:")
 
-if firstNumber == secondNumber == thirdNumber:
-    print(f"Numbers {firstNumber}, {secondNumber} and {thirdNumber} are the same.")
+if first_number == second_number == third_number:
+    print(f"Numbers {first_number}, {second_number} and {third_number} are the same.")
 else:
-    if firstNumber > secondNumber and firstNumber > thirdNumber:
-        print(f"The largest number is {firstNumber}")
-    if secondNumber > firstNumber and secondNumber > thirdNumber:
-        print(f"The largest number is {secondNumber}")
-    else:
-        print(f"The largest number is {thirdNumber}")
+    largest = max(first_number, second_number, third_number)
+    print(f"The largest number is {largest}")
 
 # Enter the first number: 1
 # Enter the second number: 51

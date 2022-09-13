@@ -1,15 +1,16 @@
 # №14
 
-orderAmount = float(input("What is the order amount?"))
+order_amount = float(input("What is the order amount?"))
 state = str(input("What is the state?"))
+
 if state == "WI":
-    print(f"The subtotal is ${orderAmount}.")
-    tax = ((orderAmount * 5.5) / 100)
+    print(f"The subtotal is ${order_amount}.")
+    tax = ((order_amount * 5.5) / 100)
     print(f"Податок становить ${tax}.")
-    total = tax + orderAmount
+    total = tax + order_amount
     print(f"The total is ${total}.")
 else:
-    print(f"The total is ${orderAmount}")
+    print(f"The total is ${order_amount}")
 
 # What is the order amount? 10
 # What is the state? WI
