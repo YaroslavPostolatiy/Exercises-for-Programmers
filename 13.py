@@ -3,9 +3,13 @@
 principal = float(input("Enter the principal:"))
 rateOfInterest = float(input("Enter the rate of interest:"))
 numberOfYears = float(input("Enter the number of years:"))
-compoundedPerYear = float(input("What is the number of times the interest is compounded per year?"))
+compoundedPerYear = float(
+    input("What is the number of times the interest is compounded per year?")
+)
 result = principal * (1 + (rateOfInterest / numberOfYears))
-print(f"After, {numberOfYears}, years at, {rateOfInterest}%, the investment will be worth ${result}")
+print(
+    f"After, {numberOfYears}, years at, {rateOfInterest}%, the investment will be worth ${result}"
+)
 
 # What is the principal amount? 1500
 # What is the rate? 4.3

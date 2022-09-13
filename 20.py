@@ -5,17 +5,17 @@ state = str(input("What state do you live in?"))
 if state == "Wisconsin":
     district = str(input("Forthe county ofresidence?"))
     if district == "Eau Claire":
-        tax = ((orderAmount * 0.005) / 100)
+        tax = (orderAmount * 0.005) / 100
         print(f"The tax is ${tax}.")
         total = tax + orderAmount
         print(f"The total is ${total}.")
-    else: 
-        tax = ((orderAmount * 0.004) / 100)
+    else:
+        tax = (orderAmount * 0.004) / 100
         print(f"The tax is ${tax}.")
         total = tax + orderAmount
         print(f"The total is ${total}.")
 else:
-    tax = ((orderAmount * 8) / 100)
+    tax = (orderAmount * 8) / 100
     print(f"The tax is ${tax}.")
     total = tax + orderAmount
     print(f"The total is ${total}.")

@@ -10,20 +10,20 @@ sex = str(input("Sex:"))
 hours = float(input("Number of hours since the last drink:"))
 
 if sex == "Man":
-    result = ((alcoholConsumed * 5.14) / (bodyWeight * alcoholDistributionRatioMan) - 0.15 * hours)
+    result = (alcoholConsumed * 5.14) / (
+        bodyWeight * alcoholDistributionRatioMan
+    ) - 0.15 * hours
     if result > TruealcoholContent:
-        print(
-            f"Your BAC is {result}. It is not legal for you to drive."
-            )
+        print(f"Your BAC is {result}. It is not legal for you to drive.")
     else:
         print("It is legal for you to drive.")
 else:
     sex == "Woman"
-    result = ((alcoholConsumed * 5.14) / (bodyWeight * alcoholDistributionRatioWoman) - 0.15 * hours)
+    result = (alcoholConsumed * 5.14) / (
+        bodyWeight * alcoholDistributionRatioWoman
+    ) - 0.15 * hours
     if result > TruealcoholContent:
-        print(
-            f"Your BAC is {result}. It is not legal for you to drive."
-            )
+        print(f"Your BAC is {result}. It is not legal for you to drive.")
     else:
         print("It is legal for you to drive.")
 
